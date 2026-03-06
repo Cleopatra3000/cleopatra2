@@ -77,7 +77,6 @@ const Gallery = () => {
           >
             <img className={styles.image} src={image.src} alt={image.alt} loading="lazy" />
           </button>
-          
         ))}
       </div>
 

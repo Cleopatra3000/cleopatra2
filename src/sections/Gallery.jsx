@@ -10,7 +10,6 @@ import foto8 from '../images/fotos/foto8.jpg'
 import foto9 from '../images/fotos/foto9.jpg'
 import foto10 from '../images/fotos/foto10.jpg'
 import foto11 from '../images/fotos/foto11.jpg'
-import foto12 from '../images/fotos/foto12.jpg'
 import styles from './Gallery.module.css'
 
 const WHATSAPP_HREF =
@@ -28,7 +27,6 @@ const IMAGES = [
   { src: foto9, alt: 'Momento compartido 9' },
   { src: foto10, alt: 'Momento compartido 10' },
   { src: foto11, alt: 'Momento compartido 11' },
-  { src: foto12, alt: 'Momento compartido 12' },
 ]
 
 const Gallery = () => {
@@ -111,7 +109,9 @@ const Gallery = () => {
               onClick={goPrev}
               aria-label="Imagen anterior"
             >
-              {'<'}
+
+              {' < '}
+
             </button>
 
             <img

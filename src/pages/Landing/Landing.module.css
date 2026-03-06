@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9rem, 2.4vw, 1.6rem);
+}
+
+.section {
+  position: relative;
+  padding: clamp(0.9rem, 2.4vw, 1.5rem);
+  border: 1px solid var(--color-border, #3a3223);
+  background: linear-gradient(180deg, rgba(23, 26, 32, 0.96) 0%, rgba(18, 21, 27, 0.96) 100%);
+  border-radius: var(--radius-lg, 22px);
+  box-shadow: var(--shadow-md, 0 10px 24px rgba(0, 0, 0, 0.32));
+  overflow: clip;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(196, 168, 9, 0.55) 50%, transparent 100%);
+}
+
+.section:hover {
+  border-color: rgba(196, 168, 9, 0.45);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.36);
+}
+
+.sectionTitle {
+  margin-bottom: clamp(0.75rem, 1.5vw, 1.25rem);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  line-height: 1.2;
+  color: var(--color-primary, #c4a809);
+}

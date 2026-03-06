@@ -110,7 +110,7 @@ const Gallery = () => {
               aria-label="Imagen anterior"
             >
 
-              {' < '}
+              {'<'}
 
             </button>
 

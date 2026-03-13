@@ -10,6 +10,17 @@ import foto8 from '../images/fotos/foto8.jpg'
 import foto9 from '../images/fotos/foto9.jpg'
 import foto10 from '../images/fotos/foto10.jpg'
 import foto11 from '../images/fotos/foto11.jpg'
+import foto12 from '../images/fotos/foto12.jpg'
+import foto13 from '../images/fotos/foto13.jpg'
+import foto14 from '../images/fotos/foto14.jpg'
+import foto15 from '../images/fotos/foto15.jpg'
+import foto16 from '../images/fotos/foto16.jpg'
+import foto17 from '../images/fotos/foto17.jpg'
+import foto18 from '../images/fotos/foto18.jpg'
+import foto19 from '../images/fotos/foto19.jpg'
+import foto20 from '../images/fotos/foto20.jpg'
+import foto21 from '../images/fotos/foto21.jpg'
+import foto22 from '../images/fotos/foto22.jpg'
 import styles from './Gallery.module.css'
 
 const WHATSAPP_HREF =
@@ -27,6 +38,17 @@ const IMAGES = [
   { src: foto9, alt: 'Momento compartido 9' },
   { src: foto10, alt: 'Momento compartido 10' },
   { src: foto11, alt: 'Momento compartido 11' },
+  { src: foto12, alt: 'Momento compartido 12' },
+  { src: foto13, alt: 'Momento compartido 13' },
+  { src: foto14, alt: 'Momento compartido 14' },
+  { src: foto15, alt: 'Momento compartido 15' },
+  { src: foto16, alt: 'Momento compartido 16' },
+  { src: foto17, alt: 'Momento compartido 17' },
+  { src: foto18, alt: 'Momento compartido 18' },
+  { src: foto19, alt: 'Momento compartido 19' },
+  { src: foto20, alt: 'Momento compartido 20' },
+  { src: foto21, alt: 'Momento compartido 21' },
+  { src: foto22, alt: 'Momento compartido 22' },
 ]
 
 const Gallery = () => {

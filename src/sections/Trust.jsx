@@ -1,18 +1,20 @@
-﻿import styles from './Trust.module.css'
+import styles from './Trust.module.css'
 
 const ITEMS = [
   { icon: 'OK', label: 'Buen trato' },
-  { icon: 'INFO', label: 'Comunicación clara' },
+  { icon: 'INFO', label: 'Comunicacion clara' },
   { icon: 'TIME', label: 'Puntualidad' },
-  { icon: 'PLAN', label: 'Plan acordado sin sorpresas' },
+  { icon: 'PLAN', label: 'Planes sociales y legales' },
 ]
 
 const Trust = () => {
   return (
     <section className={styles.section}>
       <header className={styles.header}>
-        <h2 className={styles.title}>Confianza y buen ambiente</h2>
-        <p className={styles.subtitle}>Todo se habla con claridad desde el primer mensaje.</p>
+        <h2 className={styles.title}>Contacto claro y respetuoso</h2>
+        <p className={styles.subtitle}>
+          La web esta dirigida solo a personas adultas y plantea actividades legales y acordadas.
+        </p>
       </header>
 
       <div className={styles.grid}>
@@ -30,4 +32,3 @@ const Trust = () => {
 }
 
 export default Trust
-

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './AgeGate.module.css'
 
 const AgeGate = ({ onAccept, onReject, status }) => {
@@ -14,21 +15,21 @@ const AgeGate = ({ onAccept, onReject, status }) => {
         {isDenied ? (
           <>
             <p className={styles.text}>
-              Has indicado que eres menor de edad, así que no puedes acceder a esta web.
+              Has indicado que eres menor de edad, asi que no puedes acceder a esta web.
             </p>
             <p className={styles.note}>
-              Si has respondido por error, recarga la página para volver a comprobarlo.
+              Si has respondido por error, recarga la pagina para volver a comprobarlo.
             </p>
           </>
         ) : (
           <>
             <p className={styles.text}>
-              Confirma si eres mayor de 18 años para continuar.
+              Confirma si eres mayor de 18 anos para continuar.
             </p>
 
             <div className={styles.actions}>
               <button type="button" className={styles.primaryButton} onClick={onAccept}>
-                Sí, soy mayor de edad
+                Si, soy mayor de edad
               </button>
               <button type="button" className={styles.secondaryButton} onClick={onReject}>
                 No, soy menor de edad
@@ -36,6 +37,18 @@ const AgeGate = ({ onAccept, onReject, status }) => {
             </div>
           </>
         )}
+
+        <nav className={styles.links} aria-label="Informacion legal">
+          <Link className={styles.link} to="/aviso-legal">
+            Aviso legal
+          </Link>
+          <Link className={styles.link} to="/privacidad">
+            Privacidad
+          </Link>
+          <Link className={styles.link} to="/cookies">
+            Cookies
+          </Link>
+        </nav>
       </section>
     </div>
   )

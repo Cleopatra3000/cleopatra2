@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { getWhatsAppHref } from '../config/siteConfig'
 import foto1 from '../images/fotos/foto1.jpg'
 import foto2 from '../images/fotos/foto2.jpg'
 import foto3 from '../images/fotos/foto3.jpg'
@@ -22,9 +23,6 @@ import foto20 from '../images/fotos/foto20.jpg'
 import foto21 from '../images/fotos/foto21.jpg'
 import foto22 from '../images/fotos/foto22.jpg'
 import styles from './Gallery.module.css'
-
-const WHATSAPP_HREF =
-  'https://wa.me/34603257735?text=Hola%20Cleopatra%2C%20me%20gustar%C3%ADa%20invitarte%20a%20comer%2C%20al%20cine%20o%20a%20dar%20un%20paseo.%20%C2%BFLo%20coordinamos%3F'
 
 const IMAGES = [
   { src: foto1, alt: 'Momento compartido 1' },
@@ -105,11 +103,11 @@ const Gallery = () => {
       <div className={styles.actions}>
         <a
           className={styles.cta}
-          href={WHATSAPP_HREF}
+          href={getWhatsAppHref()}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Proponer un plan por WhatsApp
+          Hablar por WhatsApp
         </a>
       </div>
 
@@ -131,9 +129,7 @@ const Gallery = () => {
               onClick={goPrev}
               aria-label="Imagen anterior"
             >
-
               {'<'}
-
             </button>
 
             <img

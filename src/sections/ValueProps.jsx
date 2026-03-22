@@ -1,20 +1,20 @@
-﻿import styles from './ValueProps.module.css'
+import styles from './ValueProps.module.css'
 
 const ITEMS = [
   {
-    icon: 'AMIGO',
-    title: 'Trato cercano',
-    text: 'Conversación natural y buen ambiente para compartir un rato agradable.',
+    icon: 'WEB',
+    title: 'Presentacion clara',
+    text: 'Informacion directa, fotos personales y un enfoque adulto, sencillo y respetuoso.',
   },
   {
     icon: 'PLAN',
-    title: 'Planes sencillos',
-    text: 'Podemos quedar para comer, ir al cine o dar un paseo por Madrid.',
+    title: 'Planes sociales',
+    text: 'La propuesta es simple: comer, cine, paseo o conversacion tranquila en Madrid.',
   },
   {
     icon: 'RAPIDO',
-    title: 'Coordinación rápida',
-    text: 'Te respondo por WhatsApp para cerrar el plan de forma clara y fácil.',
+    title: 'Coordinacion rapida',
+    text: 'El contacto inicial se hace por WhatsApp para hablar con claridad y sin rodeos.',
   },
 ]
 
@@ -38,4 +38,3 @@ const ValueProps = () => {
 }
 
 export default ValueProps
-

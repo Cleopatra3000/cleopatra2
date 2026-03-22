@@ -1,20 +1,20 @@
-﻿import styles from './Steps.module.css'
+import styles from './Steps.module.css'
 
 const STEPS = [
   {
     number: '01',
-    title: 'Escríbeme por WhatsApp',
-    text: 'Cuéntame qué plan te apetece y en qué horario te viene bien.',
+    title: 'Escribeme por WhatsApp',
+    text: 'Cuentame que plan social te apetece y en que horario te viene bien.',
   },
   {
     number: '02',
     title: 'Elegimos el plan',
-    text: 'Definimos si quedamos para comer, cine o un paseo tranquilo.',
+    text: 'Acordamos una propuesta concreta como comer, cine o un paseo tranquilo.',
   },
   {
     number: '03',
-    title: 'Confirmamos y disfrutamos',
-    text: 'Cerramos lugar y hora para pasar un rato agradable con calma.',
+    title: 'Confirmamos los detalles',
+    text: 'Cerramos lugar, hora y condiciones basicas para que todo quede claro desde el inicio.',
   },
 ]
 
@@ -22,8 +22,8 @@ const Steps = () => {
   return (
     <section className={styles.section}>
       <header className={styles.header}>
-        <h2 className={styles.title}>Cómo organizamos el plan</h2>
-        <p className={styles.subtitle}>Tres pasos simples para quedar de forma clara y cómoda.</p>
+        <h2 className={styles.title}>Como organizamos el plan</h2>
+        <p className={styles.subtitle}>Tres pasos simples para quedar de forma clara y comoda.</p>
       </header>
 
       <div className={styles.grid}>
@@ -42,4 +42,3 @@ const Steps = () => {
 }
 
 export default Steps
-

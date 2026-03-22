@@ -1,25 +1,29 @@
-﻿import styles from './FAQ.module.css'
+import styles from './FAQ.module.css'
 
 const FAQ_ITEMS = [
   {
-    q: '¿Cómo te contacto?',
-    a: 'Por WhatsApp. Ahí coordinamos rápido el plan que tengas en mente.',
+    q: 'Como te contacto?',
+    a: 'Por WhatsApp. Es el canal previsto para hablar del plan que tengas en mente.',
   },
   {
-    q: '¿Qué tipo de planes haces?',
-    a: 'Planes tranquilos como comer, ir al cine o dar un paseo con buena conversación.',
+    q: 'Que tipo de planes haces?',
+    a: 'Planes sociales y tranquilos como comer, ir al cine o dar un paseo con buena conversacion.',
   },
   {
-    q: '¿Dónde quedamos?',
-    a: 'En Madrid. Te propongo opciones según zona y horario para que te resulte cómodo.',
+    q: 'Donde quedamos?',
+    a: 'En Madrid. Te propongo opciones segun zona y horario para que te resulte comodo.',
   },
   {
-    q: '¿Con cuánto tiempo debo avisar?',
-    a: 'Mejor con algo de antelación, aunque si estoy disponible podemos concretar el mismo día.',
+    q: 'Con cuanto tiempo debo avisar?',
+    a: 'Mejor con algo de antelacion, aunque si estoy disponible podemos concretar el mismo dia.',
   },
   {
-    q: '¿Qué información debo enviar?',
+    q: 'Que informacion debo enviar?',
     a: 'Solo el tipo de plan, horario aproximado y tu zona preferida.',
+  },
+  {
+    q: 'Esta web ofrece algo ilegal?',
+    a: 'No. Esta web es personal, solo para personas adultas y no ofrece servicios sexuales ni actividades contrarias a la ley.',
   },
 ]
 
@@ -46,4 +50,3 @@ const FAQ = () => {
 }
 
 export default FAQ
-

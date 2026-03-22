@@ -2,19 +2,19 @@ import styles from './ValueProps.module.css'
 
 const ITEMS = [
   {
-    icon: 'WEB',
-    title: 'Presentacion clara',
-    text: 'Informacion directa, fotos personales y un enfoque adulto, sencillo y respetuoso.',
+    icon: '01',
+    title: 'Perfil personal',
+    text: 'Una landing sencilla para mostrar imagenes, estilo y una presentacion breve.',
   },
   {
-    icon: 'PLAN',
-    title: 'Planes sociales',
-    text: 'La propuesta es simple: comer, cine, paseo o conversacion tranquila en Madrid.',
+    icon: '02',
+    title: 'Solo adultos',
+    text: 'El acceso esta pensado unicamente para personas mayores de edad.',
   },
   {
-    icon: 'RAPIDO',
-    title: 'Coordinacion rapida',
-    text: 'El contacto inicial se hace por WhatsApp para hablar con claridad y sin rodeos.',
+    icon: '03',
+    title: 'Contacto directo',
+    text: 'Si quieres escribir, el unico canal previsto es WhatsApp y siempre de forma voluntaria.',
   },
 ]
 

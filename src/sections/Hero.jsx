@@ -6,10 +6,15 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Web personal para planes tranquilos en Madrid</h1>
+        <p className={styles.kicker}>Landing personal para adultos</p>
+        <h1 className={styles.title}>Una pagina personal, visual y directa</h1>
         <p className={styles.subtitle}>
-          Un espacio pensado para personas adultas que quieran conocerme mejor y proponer
-          actividades sencillas como comer, ir al cine o dar un paseo con buena conversacion.
+          Este espacio esta pensado para personas adultas que quieran verme, conocer un poco mi
+          estilo y, si les apetece, saludarme por WhatsApp.
+        </p>
+        <p className={styles.subtitle}>
+          No hay tienda, reservas ni contratacion online. La pagina solo muestra contenido personal
+          y un acceso voluntario a conversacion.
         </p>
 
         <div className={styles.actions}>
@@ -19,11 +24,11 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Hablar por WhatsApp
+            Abrir WhatsApp
           </a>
 
           <a className={`${styles.button} ${styles.secondary}`} href="#galeria">
-            Ver galeria
+            Ver fotos
           </a>
         </div>
       </div>

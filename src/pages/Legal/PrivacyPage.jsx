@@ -3,65 +3,48 @@ import { SITE_CONFIG } from '../../config/siteConfig'
 
 const PrivacyPage = () => {
   return (
-    <LegalLayout title="Politica de privacidad" updatedAt={SITE_CONFIG.legalLastUpdated}>
+    <LegalLayout title="Privacidad" updatedAt={SITE_CONFIG.legalLastUpdated}>
       <section>
-        <h2>Responsable del tratamiento</h2>
-        <p>Nombre o denominacion: {SITE_CONFIG.legalOwnerName}</p>
-        <p>Correo de contacto: {SITE_CONFIG.legalEmail}</p>
-      </section>
-
-      <section>
-        <h2>Que datos se tratan</h2>
+        <h2>Datos recogidos en la web</h2>
         <p>
-          A traves de esta web no se recogen formularios. No obstante, pueden tratarse datos
-          minimos derivados del uso tecnico del sitio y de la decision almacenada para verificar la
-          mayoria de edad.
+          Esta landing no incluye formularios de registro, compra ni suscripcion. Tampoco solicita
+          datos personales de forma directa dentro de la propia pagina.
         </p>
         <p>
-          Si la persona usuaria contacta por WhatsApp, se trataran los datos que facilite
-          voluntariamente en esa conversacion, como nombre, numero de telefono y contenido del
-          mensaje.
+          La pagina no realiza perfiles publicitarios, seguimiento comercial ni tratamiento masivo
+          de datos personales.
         </p>
       </section>
 
       <section>
-        <h2>Finalidad y base juridica</h2>
-        <ul>
-          <li>Atender solicitudes de contacto y conversaciones iniciadas voluntariamente.</li>
-          <li>Gestionar la verificacion de acceso para mayores de edad.</li>
-          <li>Proteger la seguridad basica y el funcionamiento tecnico del sitio.</li>
-        </ul>
+        <h2>Verificacion de mayoria de edad</h2>
         <p>
-          La base juridica es el consentimiento de la persona usuaria al iniciar el contacto y el
-          interes legitimo para mantener la seguridad y el correcto funcionamiento de la web.
+          La web puede guardar en el navegador la respuesta dada en la comprobacion de mayoria de
+          edad con una finalidad exclusivamente tecnica de control de acceso.
         </p>
       </section>
 
       <section>
-        <h2>Destinatarios y plataformas de terceros</h2>
+        <h2>Contacto por WhatsApp</h2>
         <p>
-          El contacto se realiza mediante WhatsApp, servicio prestado por un tercero ajeno a esta
-          web. El uso de esa plataforma implica aceptar sus propias condiciones y politica de
-          privacidad.
+          Si una persona decide escribir por WhatsApp, ese contacto se produce de forma voluntaria y
+          bajo las condiciones de privacidad de dicha plataforma, ajena a esta web.
         </p>
       </section>
 
       <section>
-        <h2>Conservacion de los datos</h2>
+        <h2>Finalidad</h2>
         <p>
-          Los datos se conservaran durante el tiempo necesario para atender la conversacion, cumplir
-          obligaciones legales y resolver posibles incidencias. La verificacion de mayoria de edad
-          se mantiene en el navegador hasta que la persona usuaria la elimine o cambie de
-          dispositivo.
+          El unico objetivo de esta pagina es mostrar contenido personal y facilitar un canal de
+          contacto voluntario desde el que pueda iniciarse una conversacion.
         </p>
       </section>
 
       <section>
-        <h2>Derechos</h2>
+        <h2>Conservacion y control</h2>
         <p>
-          Puedes solicitar acceso, rectificacion, supresion, oposicion, limitacion o portabilidad
-          escribiendo a {SITE_CONFIG.legalEmail}. Si consideras que tus derechos no han sido
-          atendidos correctamente, puedes acudir a la Agencia Espanola de Proteccion de Datos.
+          La informacion tecnica almacenada en el navegador puede eliminarse desde la configuracion
+          del propio navegador en cualquier momento.
         </p>
       </section>
     </LegalLayout>

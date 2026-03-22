@@ -11,6 +11,14 @@
   gap: clamp(0.7rem, 1.4vw, 1.15rem);
 }
 
+.kicker {
+  color: #f0d972;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
 .title {
   font-size: clamp(1.75rem, 4.8vw, 3rem);
   line-height: 1.08;

@@ -5,53 +5,47 @@ const LegalNoticePage = () => {
   return (
     <LegalLayout title="Aviso legal" updatedAt={SITE_CONFIG.legalLastUpdated}>
       <section>
-        <h2>Titular del sitio web</h2>
-        <p>Nombre o denominacion: {SITE_CONFIG.legalOwnerName}</p>
-        <p>NIF/CIF: {SITE_CONFIG.legalTaxId}</p>
-        <p>Domicilio: {SITE_CONFIG.legalAddress}</p>
-        <p>Correo de contacto: {SITE_CONFIG.legalEmail}</p>
-      </section>
-
-      <section>
-        <h2>Objeto</h2>
+        <h2>Naturaleza de la pagina</h2>
         <p>
-          Esta web tiene finalidad informativa y de presentacion personal para personas adultas
-          interesadas en contactar de forma voluntaria para planes sociales y de ocio legal en
-          Madrid.
+          Esta web funciona como landing personal e informativa para personas adultas. Su finalidad
+          es mostrar contenido visual y permitir, si la persona usuaria lo desea, iniciar contacto
+          voluntario por WhatsApp.
         </p>
         <p>
-          El contenido de esta web no ofrece ni publicita servicios sexuales, actividades ilicitas
-          ni propuestas contrarias a la ley.
+          La pagina no publica ofertas de servicios sexuales, no actua como intermediaria y no
+          incorpora actividad de contratacion automatizada.
         </p>
       </section>
 
       <section>
-        <h2>Condiciones de uso</h2>
+        <h2>Sin contratacion online</h2>
         <p>
-          El acceso a esta web queda reservado a personas mayores de edad. La persona usuaria se
-          compromete a realizar un uso licito, respetuoso y conforme a la normativa aplicable.
-        </p>
-        <p>
-          El titular puede actualizar los contenidos del sitio cuando resulte necesario para mejorar
-          la informacion ofrecida o adaptarla a cambios legales y operativos.
+          La pagina no incorpora tienda, sistema de reservas, medios de pago ni contratacion
+          automatizada de productos o servicios.
         </p>
       </section>
 
       <section>
-        <h2>Propiedad intelectual e imagen</h2>
+        <h2>Uso permitido</h2>
         <p>
-          Los textos, imagenes y elementos visuales de esta web pertenecen a su titular o se usan
-          con autorizacion suficiente. Queda prohibida su reproduccion, distribucion o reutilizacion
-          sin permiso expreso.
+          El acceso esta reservado a mayores de edad. Queda prohibido el uso del sitio para fines
+          ilicitos, invasivos o contrarios a la buena fe.
         </p>
       </section>
 
       <section>
-        <h2>Responsabilidad</h2>
+        <h2>Imagenes y contenido</h2>
         <p>
-          La informacion publicada tiene caracter general y no constituye oferta contractual cerrada
-          ni asesoramiento legal. Cualquier acuerdo concreto se tratara de forma individual y
-          conforme a la legalidad vigente.
+          Las imagenes y textos mostrados forman parte de una presentacion personal. No esta
+          permitida su reproduccion, distribucion o reutilizacion sin autorizacion expresa.
+        </p>
+      </section>
+
+      <section>
+        <h2>Canal de contacto</h2>
+        <p>
+          El unico canal previsto desde esta web es el acceso voluntario a WhatsApp mediante los
+          enlaces visibles en la pagina.
         </p>
       </section>
     </LegalLayout>

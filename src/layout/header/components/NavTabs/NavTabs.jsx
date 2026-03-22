@@ -1,10 +1,10 @@
-﻿import { useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import styles from './NavTabs.module.css'
 
 const TABS = [
-  { id: 'experiencia', label: 'PLANES' },
-  { id: 'galeria', label: 'GALERÍA' },
-  { id: 'contacto', label: 'CONTACTO' },
+  { id: 'experiencia', label: 'PERFIL' },
+  { id: 'galeria', label: 'FOTOS' },
+  { id: 'contacto', label: 'WHATSAPP' },
 ]
 
 const NavTabs = () => {
@@ -29,4 +29,3 @@ const NavTabs = () => {
 }
 
 export default NavTabs
-

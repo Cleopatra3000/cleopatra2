@@ -3,18 +3,18 @@ import styles from './Steps.module.css'
 const STEPS = [
   {
     number: '01',
-    title: 'Escribeme por WhatsApp',
-    text: 'Cuentame que plan social te apetece y en que horario te viene bien.',
+    title: 'Descubre la pagina',
+    text: 'Mira las fotos y el estilo general de esta landing personal.',
   },
   {
     number: '02',
-    title: 'Elegimos el plan',
-    text: 'Acordamos una propuesta concreta como comer, cine o un paseo tranquilo.',
+    title: 'Decide si quieres escribir',
+    text: 'No hay formularios ni registro. Solo un acceso directo y voluntario a WhatsApp.',
   },
   {
     number: '03',
-    title: 'Confirmamos los detalles',
-    text: 'Cerramos lugar, hora y condiciones basicas para que todo quede claro desde el inicio.',
+    title: 'Contacta si te apetece',
+    text: 'Si quieres saludar o iniciar una conversacion, puedes hacerlo desde el boton final.',
   },
 ]
 
@@ -22,8 +22,8 @@ const Steps = () => {
   return (
     <section className={styles.section}>
       <header className={styles.header}>
-        <h2 className={styles.title}>Como organizamos el plan</h2>
-        <p className={styles.subtitle}>Tres pasos simples para quedar de forma clara y comoda.</p>
+        <h2 className={styles.title}>Como funciona esta landing</h2>
+        <p className={styles.subtitle}>Visual, simple y sin pasos innecesarios.</p>
       </header>
 
       <div className={styles.grid}>

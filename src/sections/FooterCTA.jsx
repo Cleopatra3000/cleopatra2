@@ -4,10 +4,10 @@ import styles from './FooterCTA.module.css'
 const FooterCTA = () => {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>Te apetece proponer un plan tranquilo?</h2>
+      <h2 className={styles.title}>Si te apetece, escribeme</h2>
       <p className={styles.subtitle}>
-        Si eres mayor de edad, podemos hablar por WhatsApp y ver si encaja una propuesta sencilla
-        en Madrid.
+        Esta pagina termina aqui. Si quieres saludar o iniciar una conversacion, el contacto es
+        directo por WhatsApp y siempre voluntario.
       </p>
 
       <a
@@ -16,7 +16,7 @@ const FooterCTA = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Escribirme por WhatsApp
+        Ir a WhatsApp
       </a>
     </section>
   )

@@ -27,10 +27,3 @@
   border-color: rgba(196, 168, 9, 0.45);
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.36);
 }
-
-.sectionTitle {
-  margin-bottom: clamp(0.75rem, 1.5vw, 1.25rem);
-  font-size: clamp(1.1rem, 2vw, 1.5rem);
-  line-height: 1.2;
-  color: var(--color-primary, #c4a809);
-}

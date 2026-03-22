@@ -7,11 +7,10 @@ const SiteFooter = () => {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <p className={styles.copy}>
-          Web personal para personas adultas. Informacion orientativa y contacto inicial por
-          WhatsApp.
+          Landing personal para adultos con acceso voluntario a contacto por WhatsApp.
         </p>
 
-        <nav className={styles.links} aria-label="Enlaces legales">
+        <nav className={styles.links} aria-label="Enlaces informativos">
           <Link className={styles.link} to="/aviso-legal">
             Aviso legal
           </Link>
@@ -24,7 +23,7 @@ const SiteFooter = () => {
         </nav>
 
         <p className={styles.meta}>
-          {SITE_CONFIG.displayName} · {SITE_CONFIG.city}
+          {SITE_CONFIG.displayName} - {SITE_CONFIG.city}
         </p>
       </div>
     </footer>

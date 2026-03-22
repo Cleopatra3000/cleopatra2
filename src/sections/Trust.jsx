@@ -1,19 +1,20 @@
 import styles from './Trust.module.css'
 
 const ITEMS = [
-  { icon: 'OK', label: 'Buen trato' },
-  { icon: 'INFO', label: 'Comunicacion clara' },
-  { icon: 'TIME', label: 'Puntualidad' },
-  { icon: 'PLAN', label: 'Planes sociales y legales' },
+  { icon: 'ADULT', label: 'Acceso solo para adultos' },
+  { icon: 'SELF', label: 'Fotos propias' },
+  { icon: 'CLEAR', label: 'Presentacion personal' },
+  { icon: 'CHAT', label: 'Contacto voluntario' },
 ]
 
 const Trust = () => {
   return (
     <section className={styles.section}>
       <header className={styles.header}>
-        <h2 className={styles.title}>Contacto claro y respetuoso</h2>
+        <h2 className={styles.title}>Una landing personal y directa</h2>
         <p className={styles.subtitle}>
-          La web esta dirigida solo a personas adultas y plantea actividades legales y acordadas.
+          La pagina no funciona como tienda ni como plataforma de contratacion. Es una presentacion
+          visual con acceso voluntario a contacto por WhatsApp.
         </p>
       </header>
 

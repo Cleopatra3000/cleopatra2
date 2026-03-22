@@ -2,28 +2,28 @@ import styles from './FAQ.module.css'
 
 const FAQ_ITEMS = [
   {
-    q: 'Como te contacto?',
-    a: 'Por WhatsApp. Es el canal previsto para hablar del plan que tengas en mente.',
+    q: 'Que es esta pagina?',
+    a: 'Es una landing personal para adultos con imagenes, presentacion visual y un enlace de contacto por WhatsApp.',
   },
   {
-    q: 'Que tipo de planes haces?',
-    a: 'Planes sociales y tranquilos como comer, ir al cine o dar un paseo con buena conversacion.',
+    q: 'Hay venta o contratacion dentro de la web?',
+    a: 'No. La pagina no incluye tienda, pagos, reservas ni contratacion online.',
   },
   {
-    q: 'Donde quedamos?',
-    a: 'En Madrid. Te propongo opciones segun zona y horario para que te resulte comodo.',
+    q: 'La web ofrece servicios sexuales o actividades ilegales?',
+    a: 'No. La pagina se presenta como un espacio personal para adultos y no publica ofertas ilegales ni contratacion de servicios.',
   },
   {
-    q: 'Con cuanto tiempo debo avisar?',
-    a: 'Mejor con algo de antelacion, aunque si estoy disponible podemos concretar el mismo dia.',
+    q: 'Como puedo contactar?',
+    a: 'Solo por WhatsApp y de forma voluntaria, usando los enlaces visibles en la propia pagina.',
   },
   {
-    q: 'Que informacion debo enviar?',
-    a: 'Solo el tipo de plan, horario aproximado y tu zona preferida.',
+    q: 'La web recoge mis datos?',
+    a: 'No hay formularios. La web solo usa almacenamiento local para recordar la verificacion de mayoria de edad.',
   },
   {
-    q: 'Esta web ofrece algo ilegal?',
-    a: 'No. Esta web es personal, solo para personas adultas y no ofrece servicios sexuales ni actividades contrarias a la ley.',
+    q: 'La pagina esta dirigida a menores?',
+    a: 'No. El acceso esta limitado a personas mayores de edad.',
   },
 ]
 

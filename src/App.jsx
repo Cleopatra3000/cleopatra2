@@ -6,10 +6,10 @@ import {
   setStoredAgeGateStatus,
 } from './components/common/AgeGate/ageGateStorage'
 import Layout from './layout/Layout'
+import Landing from './pages/Landing/Landing'
+import CookiesPage from './pages/Legal/CookiesPage'
 import LegalNoticePage from './pages/Legal/LegalNoticePage'
 import PrivacyPage from './pages/Legal/PrivacyPage'
-import CookiesPage from './pages/Legal/CookiesPage'
-import Landing from './pages/Landing/Landing'
 
 const App = () => {
   const [ageGateStatus, setAgeGateStatus] = useState(() => getStoredAgeGateStatus())
@@ -25,7 +25,7 @@ const App = () => {
   }
 
   return (
-    <>
+    <BrowserRouter>
       {ageGateStatus !== 'accepted' && (
         <AgeGate
           status={ageGateStatus}
@@ -34,19 +34,15 @@ const App = () => {
         />
       )}
 
-      {ageGateStatus === 'accepted' && (
-        <BrowserRouter>
-          <Layout>
-            <Routes>
-              <Route path="/" element={<Landing />} />
-              <Route path="/aviso-legal" element={<LegalNoticePage />} />
-              <Route path="/privacidad" element={<PrivacyPage />} />
-              <Route path="/cookies" element={<CookiesPage />} />
-            </Routes>
-          </Layout>
-        </BrowserRouter>
-      )}
-    </>
+      <Layout>
+        <Routes>
+          <Route path="/" element={ageGateStatus === 'accepted' ? <Landing /> : null} />
+          <Route path="/aviso-legal" element={<LegalNoticePage />} />
+          <Route path="/privacidad" element={<PrivacyPage />} />
+          <Route path="/cookies" element={<CookiesPage />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   )
 }
 

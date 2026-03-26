@@ -3,11 +3,11 @@ import styles from './FAQ.module.css'
 const FAQ_ITEMS = [
   {
     q: 'Como definirias tu estilo?',
-    a: 'Soy una mujer educada, con saber estar, culta y con gusto por los planes bien llevados, tanto activos como relajados.',
+    a: 'Soy una mujer educada, culta y con gusto por los planes bien llevados.',
   },
   {
     q: 'Que tipo de planes te gustan?',
-    a: 'Me gusta entrenar, mantenerme en forma, disfrutar de deportes de riesgo, salir a cenar, conversar en un sitio agradable y tambien los planes de bienestar o relax en ambientes cuidados.',
+    a: 'Me gusta entrenar, la adrenalina, salir a cenar y los planes de bienestar o relax.',
   },
   {
     q: 'Donde estas?',
@@ -15,11 +15,11 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Como puedo contactar?',
-    a: 'Solo por WhatsApp y de forma voluntaria, usando los enlaces visibles en la propia pagina.',
+    a: 'Solo por WhatsApp y de forma voluntaria.',
   },
   {
     q: 'La web ofrece algo ilegal?',
-    a: 'No. La pagina es una presentacion personal para adultos y no publica ofertas ilegales ni contratacion de servicios fuera de un marco legal y respetuoso.',
+    a: 'No. Es una presentacion personal para adultos dentro de un marco legal y respetuoso.',
   },
   {
     q: 'La pagina esta dirigida a menores?',

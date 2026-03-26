@@ -13,9 +13,8 @@ const Trust = () => {
       <header className={styles.header}>
         <h2 className={styles.title}>Buena energia, buen ambiente y planes con estilo</h2>
         <p className={styles.subtitle}>
-          Me gustan tanto los planes con movimiento como esos ratos tranquilos en un entorno
-          agradable. Siempre prefiero compartir tiempo de calidad, con educacion, afinidad y un ocio
-          elegante y legal.
+          Me gustan tanto los planes activos como los momentos tranquilos, siempre con educacion,
+          afinidad y un ocio agradable dentro de un marco legal.
         </p>
       </header>
 

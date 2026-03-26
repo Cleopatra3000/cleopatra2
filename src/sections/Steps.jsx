@@ -4,17 +4,17 @@ const STEPS = [
   {
     number: '01',
     title: 'Me escribes',
-    text: 'Cuanto antes sepas si conectas con mi estilo, mejor. Si te apetece, me saludas por WhatsApp.',
+    text: 'Si te apetece, me saludas por WhatsApp.',
   },
   {
     number: '02',
     title: 'Nos conocemos un poco',
-    text: 'Hablamos con calma y vemos si encaja un plan agradable, activo o relajado segun el momento.',
+    text: 'Hablamos con calma y vemos si encaja un plan agradable.',
   },
   {
     number: '03',
     title: 'Disfrutamos del plan',
-    text: 'Una cena, un paseo, una experiencia con adrenalina o un rato de bienestar en un sitio cuidado.',
+    text: 'Cena, paseo, adrenalina o un rato de bienestar en un sitio cuidado.',
   },
 ]
 
@@ -23,7 +23,7 @@ const Steps = () => {
     <section className={styles.section}>
       <header className={styles.header}>
         <h2 className={styles.title}>Como me gusta vivir los planes</h2>
-        <p className={styles.subtitle}>Sin prisas, sin perder el tiempo y siempre con buena energia.</p>
+        <p className={styles.subtitle}>Sin prisas y siempre con buena energia.</p>
       </header>
 
       <div className={styles.grid}>

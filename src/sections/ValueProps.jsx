@@ -4,17 +4,17 @@ const ITEMS = [
   {
     icon: '01',
     title: 'Educacion y saber estar',
-    text: 'Me gusta tratar con personas que valoran la buena conversacion, el respeto y una presencia cuidada.',
+    text: 'Valoro el respeto, la buena conversacion y una presencia cuidada.',
   },
   {
     icon: '02',
     title: 'Vida activa y aventura',
-    text: 'Gimnasio, energia, deportes de riesgo y planes con intensidad para salir de la rutina.',
+    text: 'Gimnasio, energia y planes con adrenalina para salir de la rutina.',
   },
   {
     icon: '03',
     title: 'Ocio agradable',
-    text: 'Cena, paseo, un sitio bonito, bienestar, relax y planes que hagan que el momento merezca la pena.',
+    text: 'Cena, paseo, bienestar y relax en un ambiente agradable.',
   },
 ]
 

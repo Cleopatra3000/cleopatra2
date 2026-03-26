@@ -3,18 +3,18 @@ import styles from './Steps.module.css'
 const STEPS = [
   {
     number: '01',
-    title: 'Descubre la pagina',
-    text: 'Mira las fotos y el estilo general de esta landing personal.',
+    title: 'Me escribes',
+    text: 'Cuanto antes sepas si conectas con mi estilo, mejor. Si te apetece, me saludas por WhatsApp.',
   },
   {
     number: '02',
-    title: 'Decide si quieres escribir',
-    text: 'No hay formularios ni registro. Solo un acceso directo y voluntario a WhatsApp.',
+    title: 'Nos conocemos un poco',
+    text: 'Hablamos con calma y vemos si encaja un plan agradable, activo o relajado segun el momento.',
   },
   {
     number: '03',
-    title: 'Contacta si te apetece',
-    text: 'Si quieres saludar o iniciar una conversacion, puedes hacerlo desde el boton final.',
+    title: 'Disfrutamos del plan',
+    text: 'Una cena, un paseo, una experiencia con adrenalina o un rato de bienestar en un sitio cuidado.',
   },
 ]
 
@@ -22,8 +22,8 @@ const Steps = () => {
   return (
     <section className={styles.section}>
       <header className={styles.header}>
-        <h2 className={styles.title}>Como funciona esta landing</h2>
-        <p className={styles.subtitle}>Visual, simple y sin pasos innecesarios.</p>
+        <h2 className={styles.title}>Como me gusta vivir los planes</h2>
+        <p className={styles.subtitle}>Sin prisas, sin perder el tiempo y siempre con buena energia.</p>
       </header>
 
       <div className={styles.grid}>

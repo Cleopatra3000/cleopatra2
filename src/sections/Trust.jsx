@@ -1,20 +1,21 @@
 import styles from './Trust.module.css'
 
 const ITEMS = [
-  { icon: 'ADULT', label: 'Acceso solo para adultos' },
-  { icon: 'SELF', label: 'Fotos propias' },
-  { icon: 'CLEAR', label: 'Presentacion personal' },
-  { icon: 'CHAT', label: 'Contacto voluntario' },
+  { icon: 'FIT', label: 'Gimnasio y energia' },
+  { icon: 'RISK', label: 'Aventura y adrenalina' },
+  { icon: 'DINNER', label: 'Cena y buena conversacion' },
+  { icon: 'RELAX', label: 'Relax y bienestar' },
 ]
 
 const Trust = () => {
   return (
     <section className={styles.section}>
       <header className={styles.header}>
-        <h2 className={styles.title}>Una landing personal y directa</h2>
+        <h2 className={styles.title}>Buena energia, buen ambiente y planes con estilo</h2>
         <p className={styles.subtitle}>
-          La pagina no funciona como tienda ni como plataforma de contratacion. Es una presentacion
-          visual con acceso voluntario a contacto por WhatsApp.
+          Me gustan tanto los planes con movimiento como esos ratos tranquilos en un entorno
+          agradable. Siempre prefiero compartir tiempo de calidad, con educacion, afinidad y un ocio
+          elegante y legal.
         </p>
       </header>
 

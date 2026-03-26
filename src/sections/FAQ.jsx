@@ -2,24 +2,24 @@ import styles from './FAQ.module.css'
 
 const FAQ_ITEMS = [
   {
-    q: 'Que es esta pagina?',
-    a: 'Es una landing personal para adultos con imagenes, presentacion visual y un enlace de contacto por WhatsApp.',
+    q: 'Como definirias tu estilo?',
+    a: 'Soy una mujer educada, con saber estar, culta y con gusto por los planes bien llevados, tanto activos como relajados.',
   },
   {
-    q: 'Hay venta o contratacion dentro de la web?',
-    a: 'No. La pagina no incluye tienda, pagos, reservas ni contratacion online.',
+    q: 'Que tipo de planes te gustan?',
+    a: 'Me gusta entrenar, mantenerme en forma, disfrutar de deportes de riesgo, salir a cenar, conversar en un sitio agradable y tambien los planes de bienestar o relax en ambientes cuidados.',
   },
   {
-    q: 'La web ofrece servicios sexuales o actividades ilegales?',
-    a: 'No. La pagina se presenta como un espacio personal para adultos y no publica ofertas ilegales ni contratacion de servicios.',
+    q: 'Donde estas?',
+    a: 'Estoy en Madrid, por la zona de Plaza Castilla.',
   },
   {
     q: 'Como puedo contactar?',
     a: 'Solo por WhatsApp y de forma voluntaria, usando los enlaces visibles en la propia pagina.',
   },
   {
-    q: 'La web recoge mis datos?',
-    a: 'No hay formularios. La web solo usa almacenamiento local para recordar la verificacion de mayoria de edad.',
+    q: 'La web ofrece algo ilegal?',
+    a: 'No. La pagina es una presentacion personal para adultos y no publica ofertas ilegales ni contratacion de servicios fuera de un marco legal y respetuoso.',
   },
   {
     q: 'La pagina esta dirigida a menores?',

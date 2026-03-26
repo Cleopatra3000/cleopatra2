@@ -3,18 +3,18 @@ import styles from './ValueProps.module.css'
 const ITEMS = [
   {
     icon: '01',
-    title: 'Perfil personal',
-    text: 'Una landing sencilla para mostrar imagenes, estilo y una presentacion breve.',
+    title: 'Educacion y saber estar',
+    text: 'Me gusta tratar con personas que valoran la buena conversacion, el respeto y una presencia cuidada.',
   },
   {
     icon: '02',
-    title: 'Solo adultos',
-    text: 'El acceso esta pensado unicamente para personas mayores de edad.',
+    title: 'Vida activa y aventura',
+    text: 'Gimnasio, energia, deportes de riesgo y planes con intensidad para salir de la rutina.',
   },
   {
     icon: '03',
-    title: 'Contacto directo',
-    text: 'Si quieres escribir, el unico canal previsto es WhatsApp y siempre de forma voluntaria.',
+    title: 'Ocio agradable',
+    text: 'Cena, paseo, un sitio bonito, bienestar, relax y planes que hagan que el momento merezca la pena.',
   },
 ]
 

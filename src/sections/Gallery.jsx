@@ -96,6 +96,7 @@ const Gallery = () => {
             aria-label={`Abrir ${image.alt} en grande`}
           >
             <img className={styles.image} src={image.src} alt={image.alt} loading="lazy" />
+            <span className={styles.imageLabel}>{index + 1}</span>
           </button>
         ))}
       </div>

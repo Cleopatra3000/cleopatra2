@@ -24,6 +24,7 @@ import foto21 from '../images/fotos/foto21.jpg'
 import foto22 from '../images/fotos/foto22.jpg'
 import styles from './Gallery.module.css'
 
+
 const IMAGES = [
   { src: foto1, alt: 'Momento compartido 1' },
   { src: foto2, alt: 'Momento compartido 2' },
